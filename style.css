@@ -1,0 +1,88 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.header {
+    /*border:  4px solid red;*/
+    background-color: #1F2937;
+}
+.panel {
+    /*border: 4px solid green;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    /*border: 4px solid blue;*/
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.links {
+    /*border: 4px solid pink;*/
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    color: white;
+}
+
+.header2 {
+    /*border: 4px solid red;*/
+    display: flex;
+    height: 250px;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.encabezado-izquierdo {
+    /*border: 4px solid green;*/
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 65px;
+    gap: 10px
+}
+
+.texto-inicial {
+    /*border: 4px solid skyblue;*/
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.title-important {
+    /*border: 4px solid brown;*/
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sign-up {
+    /*border: 4px solid yellow;*/
+}
+
+.image {
+    /*border: 4px solid orange;*/
+    display: flex;
+    margin-right: 60px;
+}
+
+img {
+    width: 350px;
+    height: auto
+}
+
+button {
+    background-color: royalblue;
+    color:#F9FAF8;
+}
+
+.buttoncontainer {
+    /*border: 4px solid royalblue*/
+}
