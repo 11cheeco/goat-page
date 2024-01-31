@@ -12,6 +12,7 @@ body {
     /*border: 4px solid green;*/
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -47,7 +48,8 @@ body {
     flex-direction: column;
     width: 350px;
     margin-left: 65px;
-    gap: 10px
+    gap: 10px;
+    flex-shrink: 0;
 }
 
 .texto-inicial {
@@ -75,14 +77,173 @@ body {
 
 img {
     width: 350px;
-    height: auto
+    height: auto;
+    border-radius: 10px;
 }
 
 button {
     background-color: royalblue;
     color:#F9FAF8;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+
 }
 
 .buttoncontainer {
     /*border: 4px solid royalblue*/
+}
+
+.tronco {
+    /*border: 4px solid red;*/
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esqueleto {
+    /*border: 4px solid orange;*/
+    height: 700px;
+    width: 700px;
+    display:flex;
+    flex-direction: column;
+}
+
+.ashe {
+    /*border: 4px solid blue;*/
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-titulo {
+    /*border: 4px solid brown;*/
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contenedor-cajas {
+    /*border:4px solid skyblue;*/
+    flex: 1;
+    display: flex;
+    gap: 10px
+}
+
+.ulises {
+    /*border: 4px solid black;*/
+    flex: auto;
+}
+
+.esteban {
+    border: 4px solid #3882F6;
+    height: 150px;
+    border-radius: 15px;
+} 
+
+.textito {
+    /*border: 4px solid violet;*/
+    text-align: center;
+    padding: 0px 5px;
+    color: #1F2937;
+    padding-top: 10px;
+}
+
+.italic{
+    /*border: 4px solid green;*/
+}
+
+.italic-text {
+    /*border: 4px solid hotpink;*/
+    color: #1F2937;
+    font-size: 34px;
+    font-style:italic;
+}
+
+.cita {
+    /*border: 4px solid slateblue;*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cita-text {
+    /*border: 4px solid darkred;*/
+    color: #1F2937;
+    font-weight: 600;
+
+}
+
+.pulmon2 {
+    margin-top: 200px;
+}
+
+.cintura {
+    /*border: 4px solid springgreen;*/
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coxis {
+    /*border: 4px solid tomato;*/
+    width: 750px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+}
+
+.maluma {
+    /*border: 4px solid yellow;*/
+    padding: 25px;
+}
+
+.muslo1 {
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.muslo2 {
+    /*border: 4px solid red;*/
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.boton2 {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+}
+
+.mari {
+    /*border: 4px solid khaki;*/
+    color: #F9FAF8;
+}
+
+.arriba {
+     font-weight: 700;
+}
+
+.footer {
+    /*border: 4px solid red;*/
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.final-text {
+    color:#F9FAF8;
 }
